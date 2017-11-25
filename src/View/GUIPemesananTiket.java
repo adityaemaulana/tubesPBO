@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pemesanantiketkereta;
+package View;
 
 import javax.swing.JButton;
 import javax.swing.JComboBox;
@@ -13,12 +13,12 @@ import javax.swing.JTextField;
  *
  * @author ASUS
  */
-public class VPemesananTiket extends javax.swing.JFrame {
+public class GUIPemesananTiket extends javax.swing.JFrame {
 
     /**
      * Creates new form JFrame1
      */
-    public VPemesananTiket() {
+    public GUIPemesananTiket() {
         initComponents();
     }
 

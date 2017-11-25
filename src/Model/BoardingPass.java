@@ -1,4 +1,4 @@
-package pemesanantiketkereta;
+package Model;
 
 public class BoardingPass extends Tiket {
     private String tempatCheckin;

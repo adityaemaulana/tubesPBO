@@ -7,6 +7,7 @@ package Model;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.logging.Level;
@@ -65,5 +66,19 @@ public class DatabaseConnection {
 
         return berhasil;
 
+    }
+    
+    public ResultSet getData(String query)
+    {
+        ResultSet rs = null;
+        try
+        {
+            rs = sta.executeQuery(query);
+        } catch (Exception ex)
+        {
+            Logger.getLogger(DatabaseConnection.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        return rs;
     }
 }
