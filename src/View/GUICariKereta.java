@@ -3,18 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pemesanantiketkereta;
+package View;
 
 /**
  *
  * @author ASUS
  */
-public class JFrame2 extends javax.swing.JFrame {
+public class GUICariKereta extends javax.swing.JFrame {
 
     /**
      * Creates new form JFrame2
      */
-    public JFrame2() {
+    public GUICariKereta() {
         initComponents();
     }
 

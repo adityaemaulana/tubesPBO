@@ -1,4 +1,4 @@
-package pemesanantiketkereta;
+package Model;
 
 public class Penumpang {
     private String nama;

@@ -1,4 +1,4 @@
-package pemesanantiketkereta;
+package Model;
 
 public class Booking extends Tiket{
     private int kodeBooking;

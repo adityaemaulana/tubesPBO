@@ -1,4 +1,6 @@
-package pemesanantiketkereta;
+package Model;
+
+import Model.Kereta;
 
 public abstract class Tiket {
     private String jamBerangkat;

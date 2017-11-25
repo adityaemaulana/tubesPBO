@@ -1,4 +1,6 @@
-package pemesanantiketkereta;
+package Model;
+
+import Model.Jadwal;
 
 public class Kereta {
     private String nama;
@@ -8,12 +10,14 @@ public class Kereta {
     private String kelas;  //Kelas kereta (Eksekutif, Bisnis, Ekonomi)
     private Jadwal[] jadwal; 
     private int i=0;
+    private  int IDkereta;
  
-    public Kereta(String nama,int jalur, String asal,String tujuan, String kelas) {
+    public Kereta(String nama,int jalur, String asal,String tujuan, String kelas, int ID) {
         this.jalur = jalur;
         this.nama = nama;
         this.asal = asal;
         this.kelas = kelas;
+        this.IDkereta = ID;
     }
     
     public void tambahJadwal(String jB, String  jS){     

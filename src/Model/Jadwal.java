@@ -1,4 +1,4 @@
-package pemesanantiketkereta;
+package Model;
 
 public class Jadwal {
     private String jamBerangkat;
