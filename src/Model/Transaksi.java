@@ -1,4 +1,9 @@
-package pemesanantiketkereta;
+package Model;
+
+import Model.Tiket;
+import Model.Penumpang;
+import Model.Kereta;
+import Model.Jadwal;
 
 public class Transaksi {
     private String tglBayar;
